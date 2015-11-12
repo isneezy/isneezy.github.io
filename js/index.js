@@ -21,7 +21,6 @@ $(document).ready(function(){
 		var error_message = "Ocorreu um erro ao enviar a mensagem, por favor tente novamente";
 		$(this).addClass('sending');
 		var postData = $(this).serialize();
-		console.log(postData);
 		var formUrl = $(this).attr('action');
 		$.ajax({
 			url: formUrl,
@@ -30,7 +29,6 @@ $(document).ready(function(){
 			success:function(data){
 				setTimeout(function() {
 				    data = JSON.parse(data);
-				    console.log(data);
 				    if(data.code==0){
 				    	$('#contact-form').removeClass('error');
 						$('#contact-form').removeClass('sending');
