@@ -1,0 +1,34 @@
+{
+  "name": "Ivan Vilanculo",
+  "version": "1",
+  "authors": [
+    "Ivan <vilanculoivan@technopluz.com>"
+  ],
+  "description": "My Wanderfull personal website",
+  "main": "index.html",
+  "moduleType": [
+    "globals"
+  ],
+  "keywords": [
+    "Ivan",
+    "Vilanculo",
+    "Website"
+  ],
+  "license": "Personal",
+  "homepage": "",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "js/lib",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "angularjs#~1.4.7",
+    "jquery": "~2.1.4",
+    "simplr-smoothscroll": "~1.0.1",
+    "normalize-css": "normalize.css#~3.0.3"
+  }
+}

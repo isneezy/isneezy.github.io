@@ -1,0 +1,21 @@
+//cores
+$color-primary: 		#50addf;
+$color-primary-dark:	#2b5b75;
+$color-secondary:		#d6c69d;
+$color-secondary-dark:	#5a5a5a;
+
+//tipografia
+$base-font: "Roboto", "Helvetica", "Arial", sans serif;
+$font-text: $base-font;
+$font-heading: $base-font;
+
+$font-size-base:		16;
+$font-size-heading: rem($font-size-base + 16);
+$font-size-sub-heading: rem($font-size-base + 4);
+$font-size-text: rem($font-size-base);
+
+
+//break points
+$small:			new-breakpoint(max-width 479px 2);
+$medium:		new-breakpoint(max-width 799px 2);
+$large:			new-breakpoint(min-width 800px 6);

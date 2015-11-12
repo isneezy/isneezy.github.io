@@ -1,0 +1,11 @@
+//bourbon configuration
+$em-base: 16px;
+//net configurations
+$grid-columns: 6;
+$max-width: 1024px;
+$gutter: 0.1em;//modular-scale(1, 1px, 1);
+//$visual-grid: true;
+$visual-grid-index: front;
+$visual-grid-opacity: .1;
+$visual-grid-color: pink;
+//$default-feature: 320px;
