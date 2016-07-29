@@ -47,6 +47,117 @@ h1 {
   margin-right: 5px;
 }
 
+.cssload-thecube {
+  width: 73px;
+  height: 73px;
+  margin: 0 auto;
+  margin-top: 49px;
+  position: relative;
+  -webkit-transform: rotateZ(45deg);
+          transform: rotateZ(45deg);
+}
+
+.cssload-thecube .cssload-cube {
+  position: relative;
+  -webkit-transform: rotateZ(45deg);
+          transform: rotateZ(45deg);
+}
+
+.cssload-thecube .cssload-cube {
+  float: left;
+  width: 50%;
+  height: 50%;
+  position: relative;
+  -webkit-transform: scale(1.1);
+      -ms-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+.cssload-thecube .cssload-cube:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #2ba0c7;
+  -webkit-animation: cssload-fold-thecube 2.76s infinite linear both;
+          animation: cssload-fold-thecube 2.76s infinite linear both;
+  -webkit-transform-origin: 100% 100%;
+      -ms-transform-origin: 100% 100%;
+          transform-origin: 100% 100%;
+}
+
+.cssload-thecube .cssload-c2 {
+  -webkit-transform: scale(1.1) rotateZ(90deg);
+          transform: scale(1.1) rotateZ(90deg);
+}
+
+.cssload-thecube .cssload-c3 {
+  -webkit-transform: scale(1.1) rotateZ(180deg);
+          transform: scale(1.1) rotateZ(180deg);
+}
+
+.cssload-thecube .cssload-c4 {
+  -webkit-transform: scale(1.1) rotateZ(270deg);
+          transform: scale(1.1) rotateZ(270deg);
+}
+
+.cssload-thecube .cssload-c2:before {
+  -webkit-animation-delay: 0.35s;
+          animation-delay: 0.35s;
+}
+
+.cssload-thecube .cssload-c3:before {
+  -webkit-animation-delay: 0.69s;
+          animation-delay: 0.69s;
+}
+
+.cssload-thecube .cssload-c4:before {
+  -webkit-animation-delay: 1.04s;
+          animation-delay: 1.04s;
+}
+
+@-webkit-keyframes cssload-fold-thecube {
+  0%, 10% {
+    -webkit-transform: perspective(136px) rotateX(-180deg);
+            transform: perspective(136px) rotateX(-180deg);
+    opacity: 0;
+  }
+  25%,
+  75% {
+    -webkit-transform: perspective(136px) rotateX(0deg);
+            transform: perspective(136px) rotateX(0deg);
+    opacity: 1;
+  }
+  90%,
+  100% {
+    -webkit-transform: perspective(136px) rotateY(180deg);
+            transform: perspective(136px) rotateY(180deg);
+    opacity: 0;
+  }
+}
+
+@keyframes cssload-fold-thecube {
+  0%, 10% {
+    -webkit-transform: perspective(136px) rotateX(-180deg);
+            transform: perspective(136px) rotateX(-180deg);
+    opacity: 0;
+  }
+  25%,
+  75% {
+    -webkit-transform: perspective(136px) rotateX(0deg);
+            transform: perspective(136px) rotateX(0deg);
+    opacity: 1;
+  }
+  90%,
+  100% {
+    -webkit-transform: perspective(136px) rotateY(180deg);
+            transform: perspective(136px) rotateY(180deg);
+    opacity: 0;
+  }
+}
+
 .menu {
   background-color: #fff;
   min-height: 59px;
@@ -508,6 +619,62 @@ h1 {
 
 #contact h1 {
   text-align: center;
+}
+
+#contact #contact-form {
+  position: relative;
+}
+
+#contact #contact-form #sending-status {
+  visibility: hidden;
+  opacity: 0;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(214, 198, 157, 0.8);
+  border-radius: 5px;
+  -webkit-transition: opacity 0.2s linear;
+          transition: opacity 0.2s linear;
+}
+
+#contact #contact-form #sending-status p {
+  text-align: center;
+  display: none;
+}
+
+#contact #contact-form > p {
+  display: none;
+}
+
+#contact #contact-form.sending #sending-status {
+  visibility: visible;
+  opacity: 1;
+  -webkit-transition: opacity 0.5s linear;
+          transition: opacity 0.5s linear;
+}
+
+#contact #contact-form.sending #sending-status p:first-child {
+  display: block;
+}
+
+#contact #contact-form.success #sending-status {
+  visibility: visible;
+  opacity: 1;
+  -webkit-transition: opacity 0.5s linear;
+          transition: opacity 0.5s linear;
+}
+
+#contact #contact-form.success #sending-status p:last-child {
+  display: block;
+  margin-top: 30%;
+}
+
+#contact #contact-form.success .cssload-thecube {
+  display: none;
+}
+
+#contact #contact-form.error p {
+  display: block;
 }
 
 #contact > section {

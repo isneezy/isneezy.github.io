@@ -9,7 +9,6 @@ $("#menu li:not(.has-sub) a").click(function(){
 });
 
 $(window).scroll(function(){
-	console.log($(window).scrollTop());
 	if($(window).scrollTop()>0){
 		$(".menu").addClass("stiky");
 		//$("body").css("margin-top","59px");

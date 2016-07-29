@@ -2,3 +2,23 @@ js/lib/*
 Prepros Build/*
 prepros.cfg
 README.html
+/vendor
+/node_modules
+/public/storage
+Homestead.yaml
+Homestead.json
+.env
+/public/lib
+.idea
+.vagrant
+prepros.cfg
+*.codekit*
+.DS_Store
+public/css/style.css
+public/css/style.css.map
+public/css/admin.css
+public/css/admin.css.map
+*.log
+/.env-stagging
+*..env-stagging.swp
+/.env-prod
