@@ -1,4 +1,12 @@
+==================================
+Features and Improvements
+--------------------------
+- Improved folder structure
+- Added gulp and laravel/elixir to build site resources
+
 1.0.0 (2016-07-29)
 ==================================
-Inicial release
+Features and Improvements
 --------------------------
+Bugfix
+__________________________
