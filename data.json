@@ -2,7 +2,12 @@
   "config" : {
     "language" : "pt",
     "title" : "Ivan Vilanculo - IT na Technoplus",
+    "siteUrl" : "http://ivan.vilanculo.me",
     "copy" : "2015 Ivan Vilanculo",
+    "openGraph" : {
+      "title" : "Ivan Vilanculo",
+      "image" : "ogimage.png"
+    },
     "footer" : {
       "color" : "dark"
     }
