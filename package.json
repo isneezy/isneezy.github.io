@@ -7,7 +7,10 @@
     "gulp": "^3.9.1",
     "laravel-elixir": "^6.0.0-9"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "gulp-data": "^1.2.1",
+    "gulp-jade": "^1.1.0"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
