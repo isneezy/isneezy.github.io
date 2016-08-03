@@ -1,8 +1,10 @@
-section(id=index)
+section.about(id=index style="background-image:url('"+section.backPhoto+"');")
     section
-        section.photo
-            img(src=section.frontPhoto)
+        if section.frontPhoto
+            section.photo
+                img(src=section.frontPhoto)
         section
             h1= section.title
             p= section.description
-            a.btn.default.download(href=section.download.url)= section.download.text
+            if section.download.text
+                a.btn.default.download(href=section.download.url)= section.download.text
