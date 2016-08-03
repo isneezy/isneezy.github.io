@@ -1,0 +1,14 @@
+section.grid-list(id=index)
+    h1= section.title
+    section
+        section
+            section
+                if section.imageIcon
+                    img(src=section.imageIcon)
+        section
+            section
+                each grid in section.grid
+                    dl
+                        dt= grid.title
+                        each item in grid.items
+                            dd=item

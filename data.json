@@ -2,7 +2,10 @@
   "config" : {
     "language" : "pt",
     "title" : "Ivan Vilanculo - IT na Technoplus",
-    "copy" : "2015 Ivan Vilanculo"
+    "copy" : "2015 Ivan Vilanculo",
+    "footer" : {
+      "color" : "dark"
+    }
   },
   "data" : {
     "sections" : {
@@ -46,7 +49,40 @@
         "type" : "grid-list",
         "shortTitle" : "Habilidades",
         "title" : "Hablidades",
-        "description" : ""
+        "description" : "",
+        "imageIcon" : "public/img/keyboard.png",
+        "grid" : [
+          {
+            "title" : "Programação",
+            "items" : [
+              "JAVA", "PHP", "C#"
+            ]
+          },
+          {
+            "title" : "Tecnologias",
+            "items" : [
+              "CSS, SASS, LESS", "JavaScript, AJAX", "Java EE", "CMS (Wordpress & Joomla)"
+            ]
+          },
+          {
+            "title" : "Software Office ™",
+            "items" : [
+              "Word ™", "Excel ™", "Access ™", "PowerPoint ™"
+            ]
+          },
+          {
+            "title" : "Gráficas",
+            "items" : [
+              "Adobe Illustrator ™", "Adobe PhotoShop ™", "Adobe FireWorks ™", "CorelDraw ™"
+            ]
+          },
+          {
+            "title" : "Softwares de gestão",
+            "items" : [
+              "PHC Corporate"
+            ]
+          }
+        ]
       },
 
       "xp" : {
