@@ -1,0 +1,32 @@
+{
+  "name": "cow-personal-website-template",
+  "version": "1.0.0",
+  "description": "Website pessoal em forma de cv para blogueiros, programadores etc",
+  "main": "index.js",
+  "dependencies": {
+    "gulp": "^3.9.1",
+    "laravel-elixir": "^6.0.0-9"
+  },
+  "devDependencies": {
+    "gulp-data": "^1.2.1",
+    "gulp-jade": "^1.1.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/isneezy/isneezy.github.io.git"
+  },
+  "keywords": [
+    "Website",
+    "template",
+    "personal"
+  ],
+  "author": "Ivan Vilanculo <vilanculoivan@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/isneezy/isneezy.github.io/issues"
+  },
+  "homepage": "https://github.com/isneezy/isneezy.github.io#readme"
+}

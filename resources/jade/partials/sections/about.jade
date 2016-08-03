@@ -1,0 +1,10 @@
+section.about(id=index style="background-image:url('"+section.backPhoto+"');")
+    section
+        if section.frontPhoto
+            section.photo
+                img(src=section.frontPhoto)
+        section
+            h1= section.title
+            p= section.description
+            if section.download.text
+                a.btn.default.download(href=section.download.url)= section.download.text
