@@ -1,0 +1,13 @@
+==================================
+Features and Improvements
+--------------------------
+- Improved folder structure
+- Added gulp and laravel/elixir to build site resources
+- Added automation template generation with jade support
+
+1.0.0 (2016-07-29)
+==================================
+Features and Improvements
+--------------------------
+Bugfix
+__________________________

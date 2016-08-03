@@ -1,5 +1,5 @@
 {
-  "name": "Ivan Vilanculo",
+  "name": "ivanvilanculo",
   "version": "1",
   "authors": [
     "Ivan <vilanculoivan@technopluz.com>"
@@ -14,7 +14,7 @@
     "Vilanculo",
     "Website"
   ],
-  "license": "Personal",
+  "license": "MIT",
   "homepage": "",
   "private": true,
   "ignore": [
@@ -29,6 +29,8 @@
     "angular": "angularjs#~1.4.7",
     "jquery": "~2.1.4",
     "simplr-smoothscroll": "~1.0.1",
-    "normalize-css": "normalize.css#~3.0.3"
+    "normalize-css": "normalize.css#~3.0.3",
+    "bourbon": "^4.2.7",
+    "neat": "^1.8.0"
   }
 }

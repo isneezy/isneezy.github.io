@@ -1,0 +1,28 @@
+doctype html
+html(lang=config.language)
+    head
+        include partials/header-meta
+    body
+        section(class='menu')
+            button.menu-mobile
+                img(src="public/img/menu.png")
+                img(src="public/img/cross.png")
+            ul#menu
+                each section, index in data.sections
+                    li
+                        a(href="#"+index)= section.shortTitle
+
+        each section, index in data.sections
+            if section.type === 'about'
+                include partials/sections/about
+            if section.type === 'timeLine'
+                include partials/sections/time-line
+            if section.type === 'grid-list'
+                include partials/sections/grid-list
+            if section.type === 'contact-form'
+                include partials/sections/contact
+        footer(class=config.footer.color)
+            span (c)
+            span= " "+config.copy+" "
+            span= " - Powered by "
+                a(href="http://codeonweekends.com") Codeonweekends

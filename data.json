@@ -1,0 +1,130 @@
+{
+  "config" : {
+    "language" : "pt",
+    "title" : "Ivan Vilanculo - IT na Technoplus",
+    "copy" : "2015 Ivan Vilanculo",
+    "footer" : {
+      "color" : "dark"
+    }
+  },
+  "data" : {
+    "sections" : {
+      "about" : {
+        "type" : "about",
+        "shortTitle" : "Quem Sou",
+        "title" : "Olá eu sou Ivan Vilanculo",
+        "frontPhoto" : "public/img/profile-pic.png",
+        "backPhoto" : "public/img/about-bg.png",
+        "description" : "Especializado em design e desenvolvimento de applicativos, actualmente trabalho na Technoplus, lda - Beira como desenvolvedor/programador de aplicativos enterprise (Web, Mobile, Desktop e Interligadas), e em paralelo faço também a minha licenciatura em tecnologias de informação e comunicação na UCM. Estou nesta area por cerca de 6 anos e amo cada minuto disso. Eu sou designer, desenvolvedor e acima de tudo um pensador. Convido lhe a ver a minha pagina por completo para ver o que fiz ultimamente.",
+        "download" : {
+          "text" : "Versão PDF",
+          "url" : "#"
+        }
+      },
+
+      "education" : {
+        "type" : "timeLine",
+        "shortTitle" : "Educação",
+        "title" : "Educação",
+        "description" : "Onde dediquei a maior parte do meu tempo me preparando para o mercado",
+        "timeLine" : [
+          {
+            "time" : "2010 - Presente",
+            "data" : {
+              "title" : "Ensino Superior (Tecnologias de Informação e Comunicação)",
+              "description" : "Universidade Católica de Moçambique, Beira - Moçambique"
+            }
+          },
+          {
+            "time" : "2009",
+            "data" : {
+              "title" : "Ensino Medio (Ciencias com Desenho)",
+              "description" : "Escola Secundária Samora Mosises Machel, Chimoio - Moçambique"
+            }
+          }
+        ]
+      },
+
+      "skills" : {
+        "type" : "grid-list",
+        "shortTitle" : "Habilidades",
+        "title" : "Hablidades",
+        "description" : "",
+        "imageIcon" : "public/img/keyboard.png",
+        "grid" : [
+          {
+            "title" : "Programação",
+            "items" : [
+              "JAVA", "PHP", "C#"
+            ]
+          },
+          {
+            "title" : "Tecnologias",
+            "items" : [
+              "CSS, SASS, LESS", "JavaScript, AJAX", "Java EE", "CMS (Wordpress & Joomla)"
+            ]
+          },
+          {
+            "title" : "Software Office ™",
+            "items" : [
+              "Word ™", "Excel ™", "Access ™", "PowerPoint ™"
+            ]
+          },
+          {
+            "title" : "Gráficas",
+            "items" : [
+              "Adobe Illustrator ™", "Adobe PhotoShop ™", "Adobe FireWorks ™", "CorelDraw ™"
+            ]
+          },
+          {
+            "title" : "Softwares de gestão",
+            "items" : [
+              "PHC Corporate"
+            ]
+          }
+        ]
+      },
+
+      "xp" : {
+        "type" : "timeLine",
+        "shortTitle" : "Experiências",
+        "title" : "Experiência Profissional",
+        "description" : "",
+        "timeLine" : [
+          {
+            "time" : "Fevereiro de 2015 - Presente",
+            "data" : {
+              "title" : "IT & Desenvolvedor Web | Programador",
+              "location" : "Technoplus, Lda",
+              "description" : "Design e implementação de softwares, websites e asistência têcnica na area de redes e hardware"
+            }
+          },
+          {
+            "time" : "Julho de 2014 -Janeiro de 215",
+            "data" : {
+              "title" : "Têcnico | Gestor de Sistemas de Informação",
+              "location" : "Chele Serviços e Consultoria",
+              "description" : "Manutenção de computadores, Administração de Rede, webmaster, Têcnico PHC"
+            }
+          },
+          {
+            "time" : "Maio - Junho de 2014",
+            "data" : {
+              "title" : "Têcnico Informático",
+              "location" : "OKAPI, Lda",
+              "description" : "Manutenção de computadores, design e gerenciamento de bases de dados, redes, softwares e de aplicativos web Têcnico responsável no desenvolvimento do PHC Software."
+            }
+          },
+          {
+            "time" : "2013",
+            "data" : {
+              "title" : "Designer Gráfico",
+              "location" : "FJ Services, Beira",
+              "description" : "Design e produçáo de panfletos publicitários, cartões-de-visita, crachás, baners, logotipos, etc.."
+            }
+          }
+        ]
+      }
+    }
+  }
+}

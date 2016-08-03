@@ -1,0 +1,12 @@
+section.time-line(id=index)
+    h1= section.title
+    if section.description
+        p= section.description
+    section
+        each item, index in section.timeLine
+            article
+                section= item.time
+                section
+                    span= item.data.title
+                    span= item.data.location
+                    span= item.data.description
