@@ -66,7 +66,9 @@
           {
             "title" : "Tecnologias",
             "items" : [
-              "CSS, SASS, LESS", "JavaScript, AJAX", "Java EE", "CMS (Wordpress & Joomla)"
+              "CSS, SASS, LESS",
+              "JavaScript, AJAX, Gulp, NPM, Bower, VueJs, etc", "Java EE", "CMS (Wordpress & Joomla)",
+              "Frameworks (Laravel, Zend)", "Git SCM"
             ]
           },
           {
