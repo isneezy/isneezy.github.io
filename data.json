@@ -55,7 +55,7 @@
         "shortTitle" : "Habilidades",
         "title" : "Hablidades",
         "description" : "",
-        "imageIcon" : "public/img/keyboard.png",
+        "imageIcon" : "public/img/computing.svg",
         "grid" : [
           {
             "title" : "Programação",

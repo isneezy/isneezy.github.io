@@ -36,13 +36,14 @@ h1 {
 
 .btn.download:before {
   content: "";
-  background-image: url("../img/download.png");
+  background-image: url("../img/download.svg");
   background-repeat: no-repeat;
   background-position: 0px 1px;
   width: 16px;
   height: 16px;
   display: inline-block;
   margin-right: 5px;
+  background-size: 15px;
 }
 
 .cssload-thecube {
